@@ -1,17 +1,6 @@
-/*----------------------------------------------------------------------------*/
-/*                                                                            */
-/*    Module:       main.cpp                                                  */
-/*    Author:       jmarcinowski                                              */
-/*    Created:      Tue Mar 22 2022                                           */
-/*    Description:  V5 project                                                */
-/*                                                                            */
-/*----------------------------------------------------------------------------*/
-
-// ---- START VEXCODE CONFIGURED DEVICES ----
-// Robot Configuration:
-// [Name]               [Type]        [Port(s)]
-// DigitalOutA          digital_out   A               
-// ---- END VEXCODE CONFIGURED DEVICES ----
+// When this C++ VEXCode pro program is ran on a V5 Brain it would display any turned wheels
+// to the VEX V5 Brain screen. For example, turning a wheel connected to a motor on port 1 would display 
+// the port number and whether the motor is reversed.
 
 #include "vex.h"
 using namespace vex;
