@@ -46,7 +46,6 @@ int main() {
   Brain.Screen.print("Recording...");
   while (true)
   {
-    // Brain.Screen.print(motors[16].position(deg));
     task::sleep(100);
     for (int i=0; i < 20 ;i++)
     {
@@ -57,7 +56,6 @@ int main() {
       motors[i].setPosition(0, deg);
     }
     task::sleep(200);
-    // Brain.Screen.clearLine();
   }
 }
 
